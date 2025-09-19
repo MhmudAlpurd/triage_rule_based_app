@@ -1,0 +1,6 @@
+body{font-family:Vazirmatn, tahoma, sans-serif;background:#f6f8fb}
+.card{border-radius:1rem;border:0;box-shadow:0 10px 25px rgba(13,110,253,.07)}
+.chat-bubble{border-radius:1rem;padding:.6rem 1rem;margin-bottom:.5rem}
+.chat-bot{background:#e9f2ff}
+.chat-user{background:#f8f9fa;text-align:left}
+.btn{border-radius:.9rem}
