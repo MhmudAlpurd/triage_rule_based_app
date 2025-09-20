@@ -1,6 +1,27 @@
-body{font-family:Vazirmatn, tahoma, sans-serif;background:#f6f8fb}
-.card{border-radius:1rem;border:0;box-shadow:0 10px 25px rgba(13,110,253,.07)}
-.chat-bubble{border-radius:1rem;padding:.6rem 1rem;margin-bottom:.5rem}
-.chat-bot{background:#e9f2ff}
-.chat-user{background:#f8f9fa;text-align:left}
-.btn{border-radius:.9rem}
+
+/* IranSans font from file placed next to app.py: IRANSans.woff2 / IRANSans.ttf */
+@font-face{
+  font-family:'IRANSans';
+  src:url('/assets/IRANSans.woff2') format('woff2'),
+      url('/assets/IRANSans.ttf') format('truetype');
+  font-weight:400;
+  font-style:normal;
+  font-display:swap;
+}
+:root{
+  --bg1:#f3f5fb;
+  --bg2:#eef3ff;
+}
+body{font-family:IRANSans, Vazirmatn, Tahoma, sans-serif;background:linear-gradient(180deg,var(--bg1),var(--bg2)) min(100vh,100%);}
+.app-bg{min-height:100vh;}
+.glass-nav{background:linear-gradient(90deg,#4c6ef5,#15aabf);}
+.main-card{border-radius:1.25rem;}
+.pill-input{border-radius:2rem;padding:.85rem 1.1rem;}
+.symptom-list a{padding:1rem 1.25rem}
+.chat-bubble{border-radius:1rem;padding:.75rem 1rem;margin-bottom:.5rem;display:flex;align-items:flex-start;gap:.5rem}
+.chat-bot{background:#e8f2ff;border:1px solid #cfe2ff}
+.chat-user{background:#fff;border:1px solid #e9ecef}
+.slim-progress{height:6px;border-radius:10px}
+.slim-progress .progress-bar{background:linear-gradient(90deg,#4dabf7,#51cf66)}
+.footer{opacity:.8}
+.bg-orange{background:#fd7e14!important;color:#212529!important}
